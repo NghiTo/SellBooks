@@ -1,0 +1,274 @@
+.wrapper h1 {
+  font-size: 1.5rem;
+}
+
+.wrapper span {
+  color: #e02d05;
+  margin-left: 10px;
+}
+
+.wrapper {
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.select-product {
+  display: flex;
+  justify-content: center;
+}
+
+.select-product ul {
+  list-style: none;
+}
+
+.sort-by-select {
+  position: relative;
+  width: 180px;
+  border: 1px solid #d5d5d5;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 14px;
+}
+
+
+.sort-by-option-child, .author-option-child {
+  position: absolute;
+  width: 100%;
+  border-top: 0;
+  top: 35px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  z-index: 10;
+  background: #f5f5f5;
+}
+
+.author-option-child{
+  width: 170px;
+  top: 50px;
+  left: -50px;
+  font-size: 15px;
+  gap: 5px;
+}
+
+.sort-by-option-child li a {
+  text-decoration: none;
+  color: #666;
+}
+
+.sort-by-option-child li a:hover {
+  color: #f5502b;
+}
+
+.sort-by-select:hover .sort-by-option-child {
+  transition: 0.3s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.author-menu:hover .author-option-child {
+  transition: 0.3s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.wp-list-product .product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wp-list-product .product-item {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.wp-list-product .product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-product #show {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #ebebeb;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.img-product #show img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.main-detail-product .product-name {
+  border-bottom: 1px dotted #989898;
+}
+
+.main-detail-product .product-name h1 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.box-policy {
+  background: #f7f7f7;
+  border: 1px solid #d6d6d6;
+}
+
+.box-policy .ship-policy,
+.box-policy .payment-policy,
+.box-policy .group-policy,
+.box-policy .contact-policy {
+  border: 1px solid #fff;
+  color: #777;
+  font-size: 16px;
+  font-weight: 200;
+  height: 60px;
+  padding-left: 65px;
+  padding-top: 11px;
+  width: 100%;
+}
+
+.product-name {
+  border-bottom: 1px dotted #989898;
+}
+
+.box-policy .ship-policy {
+  background: url("https://web.nvnstatic.net/tp/T0308/img/policy-1.png") 15px
+    center no-repeat;
+}
+
+.box-policy .payment-policy {
+  background: url("https://web.nvnstatic.net/tp/T0308/img/policy-2.png") 15px
+    center no-repeat;
+}
+
+.box-policy .group-policy {
+  background: url("https://web.nvnstatic.net/tp/T0308/img/policy-3.png") 15px
+    center no-repeat;
+}
+
+.box-policy .contact-policy {
+  background: url("https://web.nvnstatic.net/tp/T0308/img/policy-4.png") 15px
+    center no-repeat;
+}
+
+.box-price {
+  margin: 10px 0;
+}
+
+.box-price {
+  background: #f0f0f0;
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+  height: 50px;
+  line-height: 48px;
+  margin: 15px 0;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.box-price span {
+  color: #fd5023;
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.box-price .discount {
+  background: url("https://web.nvnstatic.net/tp/T0308/img/discount1.png") right
+    center no-repeat;
+  color: #fff;
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
+  height: 37px;
+  line-height: 36px;
+  margin-top: 6px;
+  margin-right: 6px;
+  text-align: center;
+  width: 117px;
+}
+
+.span {
+  display: inline;
+}
+
+.stock-brand li {
+  margin: 10px 0;
+}
+
+.stock-brand li {
+  color: #333;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.stock-brand .a-stock {
+  color: #fff;
+  background: #32cc08;
+  padding: 2px;
+  border-radius: 3px;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+.stock-brand .b-stock {
+  color: #fff;
+  background: red;
+  padding: 2px;
+  border-radius: 3px;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+.data-detail {
+  font-style: normal;
+  font-weight: normal;
+}
+
+#addToCart {
+  background: url("https://web.nvnstatic.net/tp/T0308/img/cart3.png") 17px
+    center no-repeat #fd5023;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 183px;
+  padding-top: 0;
+  cursor: pointer;
+  border: none;
+}
+
+#addQuickCart {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fd5023;
+  border-width: 1px;
+  border-color: #fd5023;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #f4bdaf;
+  width: 180px;
+  height: 40px;
+  line-height: 24px;
+  margin-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}

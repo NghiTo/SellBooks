@@ -1,0 +1,19 @@
+.dashboard {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.dashboard h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}

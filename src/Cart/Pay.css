@@ -1,0 +1,140 @@
+.shoppingCart {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.column1 > h2 > span,
+.column2 h2 span,
+.column3 > h2 > span {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  color: #fff;
+  background: #fd5023;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.column1 > h2,
+.column2 h2,
+.column3 > h2 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.note {
+  border-radius: 3px;
+  border: 1px solid #d1d1d1;
+  padding: 5px 3px;
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+.column2 {
+  border-right: 1px solid #a4a4a4;
+  border-left: 1px solid #a4a4a4;
+}
+
+.paymentMethod label,
+.column1 label {
+  font-weight: normal;
+}
+
+.method {
+  line-height: 20px;
+}
+
+.column1 {
+  padding-left: 30px;
+}
+
+.shoppingCart form {
+  display: block;
+}
+
+.column2 .paymentMethod {
+  padding: 0 15px;
+}
+
+.listBank {
+  padding: 0px 15px;
+  display: block;
+}
+
+#reviewCart {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+#reviewCart table tr td {
+  padding: 10px 0;
+}
+
+#cart-th td {
+  font-weight: 700;
+}
+
+#listOrderTable:nth-child(2) {
+  border-top: 1px solid #4d4c4e;
+}
+
+#orderIf p {
+  display: block;
+  padding: 11px 0;
+  margin: 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+#orderIf p:first-child {
+  border-bottom: 1px solid #dedede;
+  font-weight: bold;
+}
+
+#orderIf p span {
+  float: right;
+}
+
+.column3 {
+  padding-right: 30px;
+}
+
+#totalMoney {
+  color: #ec7422;
+  font-weight: 700;
+}
+
+.btnCtn {
+  margin-right: 30px;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+#btn {
+  margin-top: 15px;
+}
+
+.listBank {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  opacity: 0;
+}
+
+.listBank.visible {
+  max-height: 500px; /* Adjust as necessary to fit the content */
+  opacity: 1;
+}
